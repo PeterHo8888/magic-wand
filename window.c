@@ -174,10 +174,10 @@ WPARAM wParam, LPARAM lParam) {
 		switch(wmId)
 		{
 			case 1:
-				MessageBox(hwnd, "Made by Peter Ho and Akif Patel :)", "About - Magic Wand", MB_ICONINFORMATION);
+				system("start \"\" https://fuhrms.github.io/magicwand/MathBehindTheMagic.pdf");
 				break;
 			case 2:
-				system("start \"\" https://peterho8888.github.io/magicwand.html");
+				system("start \"\" https://fuhrms.github.io/magicwand");
 				break;
 			case 3:
 				Shell_NotifyIcon(NIM_DELETE, &nid);
